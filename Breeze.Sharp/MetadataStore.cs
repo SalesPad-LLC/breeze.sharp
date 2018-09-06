@@ -635,7 +635,7 @@ namespace Breeze.Sharp {
             return internable;
           }
         } catch (Exception e) {
-          throw new Exception("Unable to deserialize type: " + typeof(T).Name + " item: " + jNode);
+          throw new Exception("Unable to deserialize type: " + typeof(T).Name + " item: " + jNode, e);
         }
       }
 

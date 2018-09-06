@@ -99,7 +99,7 @@ namespace Breeze.Sharp {
         }
         return _entityKey;
       }
-      protected internal set {
+      internal set {
         // set it to null to force recalc
         _entityKey = value;
         OnEntityAspectPropertyChanged("EntityKey");

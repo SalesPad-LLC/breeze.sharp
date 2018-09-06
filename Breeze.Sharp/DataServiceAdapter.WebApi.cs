@@ -174,9 +174,13 @@ namespace Breeze.Sharp {
   }
 
   internal class KeyMapping {
+#pragma warning disable CS0649
     public String EntityTypeName;
+
     public Object TempValue;
+
     public Object RealValue;
+#pragma warning restore CS0649
   }
 
   public class WebApiJsonResultsAdapter : IJsonResultsAdapter {

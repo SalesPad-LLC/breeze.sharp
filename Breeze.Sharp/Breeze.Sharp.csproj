@@ -1,12 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard1.1</TargetFramework>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>IdeaBlade, SalesPad LLC</Company>
+    <Product>Breeze.Sharp</Product>
+    <PackageId>Breeze.Sharp</PackageId>
+    <AssemblyVersion>0.6.1.0</AssemblyVersion>
+    <FileVersion>0.6.1.0</FileVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>The files and references that are essential for a Breeze Sharp client</Description>
+    <Copyright>Copyright IdeaBlade 2012-2018</Copyright>
+    <PackageLicenseUrl>http://breeze.github.io/doc-main/license.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://salespad.visualstudio.com/Cloud/_git/ThirdParty-Breeze.Sharp</PackageProjectUrl>
+    <PackageIconUrl>http://breeze.github.io/images/logos/BreezeSharpB.png</PackageIconUrl>
+    <RepositoryUrl>https://salespad.visualstudio.com/Cloud/_git/ThirdParty-Breeze.Sharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Breeze DotNet Portable OData CSharp WebApi SPA WPF Xamarin</PackageTags>
+    <PackageReleaseNotes>Release</PackageReleaseNotes>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.Services.Client" Version="5.8.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Microsoft.Data.Services.Client" Version="5.8.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
-    <PackageReference Include="System.Spatial" Version="5.8.2" />
+    <PackageReference Include="System.Spatial" Version="5.8.4" />
   </ItemGroup>
 </Project>

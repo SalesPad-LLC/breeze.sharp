@@ -1,0 +1,6 @@
+mode: ContinuousDeployment
+continuous-delivery-fallback-tag: ''
+commit-message-incrementing: Disabled
+
+ignore:
+  sha: []
