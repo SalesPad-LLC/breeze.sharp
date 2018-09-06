@@ -49,12 +49,8 @@ Task("Clean")
 Task("UpdateVersionNum")
     .Does(() =>
     {
-        GitVersion(new GitVersionSettings
-            {
-                OutputType = GitVersionOutput.BuildServer,
-
-            });
-        versionInfo = GitVersion(new GitVersionSettings{ OutputType = GitVersionOutput.Json });
+        GitVersion(new GitVersionSettings { OutputType = GitVersionOutput.BuildServer });
+        versionInfo = GitVersion(new GitVersionSettings { OutputType = GitVersionOutput.Json });
     });
 
 Task("Pack")
